@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'todo_page.dart';
-import 'memo_page.dart';
+//import 'memo_page.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({super.key});
-
   @override
   State<MainPage> createState() => _MainPageState();
 }
@@ -14,7 +13,7 @@ class _MainPageState extends State<MainPage> {
 
   final List<Widget> _pages = const [
     TodoPage(),
-    MemoPage(),
+    //MemoPage(),
   ];
 
   @override
